@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5fc;
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+.logo{
+    width: 100%;
+    float: left;
+}
+.leftPanel{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+.rightPanel{
+    float: right;
+    width: 29%;
+    height: auto;
+    border-radius: 24px;
+    border: 1px solid #061e3b;
+}
+.buttonsLeft{
+    border-radius: 24px;
+    float: left;
+    width: 70%;
+    height: auto;
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.Header{
+    margin-left: 40%;
+}
+.startText{
+    resize: none;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+#rightImg{
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+}
+#text1{
+    resize: none;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+#text2{
+    margin-top: 30%;
+    float: left;
+    resize: none;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+.buttonsLeft button{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 14%;
+    background: #0A3871;
+    color: #D8DFE8;
+    font-size: 20px;
+}
+#Copy {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    border-radius: 24px;
+    background: #D8DFE8;
+    display: none;
+}   
+.footer{
+    margin-top: 5%;
+}

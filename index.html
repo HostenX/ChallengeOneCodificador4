@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador de codigo Oracle ONE</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg" src="img/logo.png">
+            <h1 class="Header">Encriptador de texto</h1>
+        </div>
+        <div class="leftPanel">
+            <textarea id ="inputText" class="startText" placeholder="Ingrese el texto para encriptar"></textarea>
+        </div>
+        <div class="rightPanel">
+            <img src="img/Question.png" id="rightImg">
+            <h1 id="text1">No se encontro un texto</h1>
+            <textarea readonly name="" id="text2" cols="80" rows="8">ingrese el texto que desea Encriptar o desencriptar</textarea>
+            <button type="button" id="Copy" onclick="copy()">Copiar</button>
+        </div>
+        <div class="buttonsLeft">
+            <p>Solo minusculas y sin acentos</p>
+            <button type="button" id="Encrypt" onclick="encrypt()">Encriptar</button>
+            <button type="button" id="Decrypt" onclick="decrypt()" >Desencriptar</button>
+            <div class="footer">
+                Pagina Realizada por Juan Esteban Ayala Ramirez
+            </div>
+        </div>
+    </div>
+</body>
+</html>
